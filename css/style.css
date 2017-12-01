@@ -91,12 +91,14 @@ Responsive media queries
 	border-left: 5px solid #BE2525;
 	padding: 15px 40px;
 	color: #fff;
-	margin-top: 170px;
+    margin-top: 170px;
+    font-family: 'Satisfy', cursive;
+    
 }
 .banner-text h2, .banner-text p{
 	font-size: 40px;
 	font-weight: 400;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Satisfy', cursive;
 }
 .banner-text h2 span{
     font-family: 'Satisfy', cursive;
@@ -121,21 +123,17 @@ Responsive media queries
 
 }
 #about{
-    background: url('../img/wlu-banner.jpg') no-repeat;
+    background: url('../img/banner.png') no-repeat;
     background-size: cover;
-    background-image{
-        -webkit-filter: blur(5px);
-        -moz-filter: blur(5px);
-        -o-filter: blur(5px);
-        -ms-filter: blur(5px);
-        filter: blur(5px);} 
+   
 
         
-    
+  
 	margin-bottom: -3px;
 }
 .section-padding{
-	padding: 60px 0px;
+    padding: 60px 0px;
+    
 }
 .title{
 	font-size: 24px;
